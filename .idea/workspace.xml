@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b834b69-7aa7-4942-884d-93dacde6d703" name="Changes" comment="first initial">
+    <list default="true" id="7b834b69-7aa7-4942-884d-93dacde6d703" name="Changes" comment="whateverII">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/humans/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/humans/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/string/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/string/UtilsMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/humans/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/humans/Patient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/string/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/string/StringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/string/UtilsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/string/UtilsMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/string/UtilsMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/result.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +36,7 @@
     <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +73,7 @@
       <recent name="com.solvd.hospitalpatientrecoverymodel.medicaldetails" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UtilsMain">
+  <component name="RunManager" selected="Application.com.solvd.hospitalpatientrecoverymodel.Main">
     <configuration name="ApplicationPatient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.solvd.hospitalpatientrecoverymodel.app.ApplicationPatient" />
       <module name="HospitalPatientRecoveryModel" />
@@ -119,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UtilsMain" />
         <item itemvalue="Application.com.solvd.hospitalpatientrecoverymodel.Main" />
+        <item itemvalue="Application.UtilsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661785625962</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first initial">
+      <created>1661786144603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661786144603</updated>
+    </task>
+    <task id="LOCAL-00003" summary="whateverII">
+      <created>1661786303268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661786303268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,9 +197,25 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="first initial" />
+    <MESSAGE value="whateverII" />
+    <option name="LAST_COMMIT_MESSAGE" value="whateverII" />
   </component>
 </project>

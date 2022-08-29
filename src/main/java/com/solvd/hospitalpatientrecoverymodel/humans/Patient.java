@@ -1,12 +1,10 @@
 package com.solvd.hospitalpatientrecoverymodel.humans;
-
 import com.solvd.hospitalpatientrecoverymodel.hospital.Contact;
 import com.solvd.hospitalpatientrecoverymodel.hospital.IPersonalInfo;
 import com.solvd.hospitalpatientrecoverymodel.medicaldetails.MedicalHistory;
 import com.solvd.hospitalpatientrecoverymodel.medicaldetails.MedicineType;
 import com.solvd.hospitalpatientrecoverymodel.medicaldetails.Procedure;
 import com.solvd.hospitalpatientrecoverymodel.payment.PaymentDetails;
-
 import java.util.List;
 
 public class Patient extends Person implements IPersonalInfo {
