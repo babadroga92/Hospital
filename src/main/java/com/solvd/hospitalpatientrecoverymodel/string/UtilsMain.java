@@ -8,5 +8,6 @@ public class UtilsMain {
     public static void main(String[] args) throws Exception {
         metoda();
         System.out.println("Whatever");
+        System.out.println("WhateverII");
     }
 }
