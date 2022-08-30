@@ -23,6 +23,9 @@ public class Hospital extends Address implements IHospitalPatient {
     private List<Patient> listOfPatients = new ArrayList<Patient>();
     private ArrayList<Employee> employees;
 
+    public Hospital() {
+    }
+
     public Hospital(String city, String state, String address, int zipCode, String phoneNumber, int established, int capacity) {
         this.setCity(city);
         this.setState(state);

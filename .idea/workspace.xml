@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b834b69-7aa7-4942-884d-93dacde6d703" name="Changes" comment="whateverII">
+    <list default="true" id="7b834b69-7aa7-4942-884d-93dacde6d703" name="Changes" comment="Added a map that counts the number of times each word">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalPatientRecoveryModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalPatientRecoveryModel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/humans/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/humans/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/string/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/string/UtilsMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/hospitalpatientrecoverymodel/string/Homework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/humans/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/humans/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/string/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/string/StringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/string/UtilsMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/hospitalpatientrecoverymodel/string/StringTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -57,6 +55,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/babadroga_92/Desktop/HospitalPatientRecoveryModel&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -69,11 +69,17 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.solvd.hospitalpatientrecoverymodel.medicaldetails" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.solvd.hospitalpatientrecoverymodel.string" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.com.solvd.hospitalpatientrecoverymodel.Main">
+  <component name="RunManager" selected="JUnit.HomeworkTest">
     <configuration name="ApplicationPatient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.solvd.hospitalpatientrecoverymodel.app.ApplicationPatient" />
       <module name="HospitalPatientRecoveryModel" />
@@ -126,10 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeworkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HospitalPatientRecoveryModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.hospitalpatientrecoverymodel.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.solvd.hospitalpatientrecoverymodel.string" />
+      <option name="MAIN_CLASS_NAME" value="com.solvd.hospitalpatientrecoverymodel.string.HomeworkTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HomeworkTest" />
         <item itemvalue="Application.com.solvd.hospitalpatientrecoverymodel.Main" />
-        <item itemvalue="Application.UtilsMain" />
+        <item itemvalue="Application.com.solvd.hospitalpatientrecoverymodel.string.UtilsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661786303268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added a map that counts the number of times each word">
+      <created>1661791929096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661791929096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +245,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first initial" />
     <MESSAGE value="whateverII" />
-    <option name="LAST_COMMIT_MESSAGE" value="whateverII" />
+    <MESSAGE value="Added a map that counts the number of times each word" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a map that counts the number of times each word" />
   </component>
 </project>
